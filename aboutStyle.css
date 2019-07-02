@@ -78,7 +78,7 @@ span :hover{
     width: 0;
     height: 0;
     border-top: 4px solid #afbac0;
-    border-right: 4px solid transparent;
+    border-right: 4px solid transparent; /*使左 右 底部边为透明状态*/
     border-bottom: 4px solid transparent;
     border-left: 4px solid transparent;
 }
@@ -114,20 +114,23 @@ li{
     padding: 1rem 0.2rem 1rem 2rem;
     height: 6rem;
     font: 1rem/3rem "微软雅黑",serif;
-    color: #999999;
+    color: white; /*字体颜色设置*/
     border-bottom: 1px solid #e1e5e7;
     box-sizing: border-box;
-    background-color: antiquewhite;
-    background-image: url("images/sprite6.png");
+    background-color: black;
+    background-image: url("images/sprite6-1.png");
     background-repeat: no-repeat;
 }
-
 .icon1{
-    padding: 0 0 0 2.2rem;
-    background-size: 19%;
-    background-position: -20px -42px;
+    padding: 0 0 0 1.22rem;
+    background-size: 100%;
+    background-position: -28px -62px;
 }
-br{
-    margin: 0;
-    padding: 0;
+.icon1-date{
+    position: relative;
+    padding-left: 1.5rem;
+}
+.icon1-loc{
+    position: relative;
+    padding-left: 1.5rem;
 }

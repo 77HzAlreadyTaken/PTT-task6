@@ -16,18 +16,17 @@ span :hover{
 .icon-loc{
     position: absolute;
     top: 1.5rem;
-    right: 0.2rem;
+    right: 0.1rem;
 }
 .icon-loc > img{
-    width: 55%;
+    width: 57%;
 }
 .btn-emp{
     position: relative;
     margin: 1rem auto 0 auto;
     padding-left: 1.1rem;
-    width: 35%;
-    font: 1.2rem/2.5rem "微软雅黑",serif;
-    font-weight: lighter;
+    width: 40%;
+    font: 1.3rem/2.5rem "Microsoft JhengHei",serif;
     color: white;
     background-color: #55a8b3;
     border-radius: 0.3rem;
@@ -38,8 +37,7 @@ span :hover{
     left: 50%;
     width: 50%;
     text-align: center;
-    font: 1.2rem/2.5rem "微软雅黑",serif;
-    font-weight: lighter;
+    font: 1.3rem/2.5rem "Microsoft JhengHei",serif;
     color: #5fc0cd;
     background-color: white;
     border-radius: 0.3rem;
@@ -49,7 +47,7 @@ span :hover{
     width: 100%;
     height: 3rem;
     text-align: center;
-    font: 1rem/3rem "微软雅黑",serif;
+    font: 1.1rem/3rem "Microsoft JhengHei",serif;
     color: #999999;
     border-bottom: 1px solid #e1e5e7;
 }
@@ -105,32 +103,108 @@ span :hover{
     border-left: 4px solid transparent;
 }
 ul{
-    margin: 0;
+    margin: 0 0 4rem 0;
     padding: 0;
     width: 100%;
     list-style: none;
 }
 li{
     padding: 1rem 0.2rem 1rem 2rem;
-    height: 6rem;
-    font: 1rem/3rem "微软雅黑",serif;
+    height: 6.5rem;
+    font: 1.1rem/1.8rem "Microsoft JhengHei",serif;
     color: white; /*字体颜色设置*/
     border-bottom: 1px solid #e1e5e7;
     box-sizing: border-box;
-    background-color: black;
-    background-image: url("images/sprite6-1.png");
+    background-image: url("images/sprite6-2.png");
     background-repeat: no-repeat;
 }
-.icon1{
-    padding: 0 0 0 1.22rem;
+.icon-sprite{
+    padding: 0 0 0 1rem;
     background-size: 100%;
-    background-position: -28px -62px;
+    background-position: 0 -120px;
 }
 .icon1-date{
     position: relative;
-    padding-left: 1.5rem;
+    margin: 0;
+    padding-left: 1.8rem;
+    top: 0.8rem;
+    color: #999999;
+}
+.icon1-month{
+    position: relative;
+    padding-left: 1.8rem;
+    top: 0.8rem;
+    font-weight: bold;
+    color: black;
+    white-space: nowrap;
+}
+.icon1-price{
+    position: relative;
+    padding-left: 3.2rem;
+    top: 0.8rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #e63b0e;
 }
 .icon1-loc{
     position: relative;
-    padding-left: 1.5rem;
+    padding-left: 1.8rem;
+    top: 0.6rem;
+    font-size: 1rem;
+    color: #999999;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 4rem;
+    background-color: #f8fafb;
+}
+.btn-home{
+    position: relative;
+    float: left;
+    width: 20%;
+    top: 0.8rem;
+    padding-left: 20%;
+}
+.btn-home > img{
+    width: 28px;
+}
+.btn-home > p{
+    margin: 0;
+    padding: 0.2rem 0 0 0.1rem;
+    font: bold 0.8rem/1.2rem "Microsoft JhengHei",serif;
+    color: #5fc0cd;
+}
+.btn-circle{
+    position: relative;
+    top: 0.1rem;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.btn-circle > img{
+    width: 62px;
+}
+/*.btn-write{
+    position: absolute;
+    top: 1rem;
+}
+.btn-write > img{
+    width: 70%;
+}*/
+.btn-mine{
+    position: relative;
+    float: right;
+    top: 0.8rem;
+    padding-right: 20%;
+}
+.btn-mine > img{
+    width: 28px
+}
+.btn-mine > p{
+    margin: 0;
+    font: bolder 0.8rem/1.2rem "Microsoft JhengHei",serif;
+    color: #999999;
 }
